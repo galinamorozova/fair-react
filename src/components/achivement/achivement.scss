@@ -1,0 +1,68 @@
+@import '../../css/variables.scss';
+
+.achivement {
+    background-color: #bdbebd;
+    
+    h2 {
+    color: #ffffff;
+}
+
+.description {
+    color: #ffffff;
+}
+
+}
+
+ 
+
+.achivement-icons {
+    display: flex;
+    justify-content: space-between;
+
+    .leaf-icon{
+      transform: rotateY(180deg);  
+    }
+    
+    .ach-info {
+       text-align: center;
+       display: grid;
+       grid-template: 1 / 3;
+       grid-template-columns: minmax(1fr, 1fr);
+       
+        .achivement-icon {
+            font-size: 78.5px;
+            color: #43a906;
+            }
+
+         .achivement-number {
+            font-family:$roboto-slab;
+            font-size: 37px;
+            color: #ffffff;
+            margin-top: 30px;
+            margin-bottom: 40px; 
+            position: relative;
+            
+            &::after {
+                content: '';
+                background-color: #ffffff;
+                width: 82px;
+                height: 2px;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+            } 
+           
+        }
+         .achivement-description {
+                font-family: $roboto-slab;
+                font-size: 18px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 0;
+                
+               
+         }
+    }
+}

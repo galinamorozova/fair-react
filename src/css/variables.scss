@@ -1,0 +1,87 @@
+
+
+$roboto-slab: 'Roboto Slab', ;
+$open-sans: 'Open Sans', ;
+
+.main-container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 114px 0;
+}
+h1 {
+    font-family: $roboto-slab;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+}
+
+h2 {
+    font-family: $roboto-slab;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    height: 27px;
+    line-height: 27px;
+}
+
+h3 {
+    font-family: $roboto-slab;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    color: #454444;
+    margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: $open-sans;
+  box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    max-width: 880px;
+    margin: 30px auto 60px auto;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #393939;
+    font-family: $open-sans;
+}
+
+button {
+    border-radius: 2px;
+    background-color: #43a906;
+    font-family: $roboto-slab;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+.col-span-2 {
+    grid-column: span 2;
+    background-color: red;
+}
+
+.row-span-2 {
+    grid-row: span 2;
+    background-color: aqua;
+}

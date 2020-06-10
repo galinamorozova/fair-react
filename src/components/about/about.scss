@@ -1,0 +1,60 @@
+@import '../../css/variables.scss';
+
+.welcome {
+    
+    .all-services {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        text-align: center;
+
+        .service:hover  i{
+            color: #ffffff;
+            background-color: #43a906;
+            border-color:  #43a906;
+          }
+
+        .service:hover h4 {
+            color: #43a906;
+        }
+
+        i {
+            display: inline-block;
+            width: 120px;
+            height: 120px;
+            border: 2px solid #c4c4c4;
+            border-radius: 50%;
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 40px;
+            text-align: center;
+            color: #c4c4c4;
+            height: 120px;
+            line-height: 120px;
+        }
+
+      
+
+        h4 {
+            font-family: $roboto-slab;
+            font-size: 18px;
+            font-weight: bold;
+            color: #393939;
+            text-transform: uppercase;
+            padding-top: 34px;
+            padding-bottom: 25px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #646464;
+            margin: 0;
+        }
+    }
+
+    .service + .service {
+        margin-left: 38px;
+    } 
+
+    
+}
